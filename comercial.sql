@@ -1,5 +1,5 @@
 CREATE TABLE empleado(
-    Documento INT PRIMARY KEY, 
+    Documento INT PRIMARY , 
     nombre VARCHAR(50) UNIQUE NOT NULL,
     apellido VARCHAR(50) UNIQUE NOT NULL,
     telefono VARCHAR(50),
