@@ -31,14 +31,72 @@ CREATE TABLE  cliente(
     pais VARCHAR(50) NOT NULL,
     creado TIMESTAMP DEFAULT CURRENT_TIMESTAMP
  );
+INSERT INTO  oficina (ciudad, telefono,direccion,departamento,pais)
+VALUES ( 'bogota',421365851,'cl 74 sur # 23-88','cundinamarca','colombia');
+INSERT INTO  oficina (ciudad, telefono,direccion,departamento,pais)
+VALUES ('neiva',412587454,'cr 4 #85-4','huila','colombia');
+INSERT INTO  oficina (ciudad, telefono,direccion,departamento,pais)  
+VALUES('pitalito',6578412469,' cr 23 #85-20','huila','colombia');
+INSERT INTO  oficina (ciudad, telefono,direccion,departamento,pais)
+VALUES ('yopal',587461248,'manzana 5 lote 234','casanare','colombia');
+INSERT INTO  oficina (ciudad, telefono,direccion,departamento,pais)
+VALUES('pereira',5322457847,'cr 2 #58-20','antoquia','colombia');
+INSERT INTO  oficina (ciudad, telefono,direccion,departamento,pais)
+VALUES('florencia',312547823,'cr 5 # 18-54','caqueta','colombia');
+INSERT INTO  oficina (ciudad, telefono,direccion,departamento,pais)
+VALUES ('quibdo',3127445768,'cr 5 # 18-54','choco','colombia');
+INSERT INTO  oficina (ciudad, telefono,direccion,departamento,pais)
+VALUES ('zipaquira',32154784548,'cr 3 # 85-74','cundinamarca','colombia');
+INSERT INTO  oficina (ciudad, telefono,direccion,departamento,pais)
+VALUES ('la plata ',3104785148,'cl 5 #80-70','huila','colombia');
+INSERT INTO  oficina (ciudad, telefono,direccion,departamento,pais)
+VALUES ('algeciras',3216897422,'cr 3 # 8-74','huila','colombia');
+INSERT INTO  oficina (ciudad, telefono,direccion,departamento,pais)
+VALUES ('moscu',354555458,'av 45 #3-18','antoquia','colombia');
+INSERT INTO  oficina (ciudad, telefono,direccion,departamento,pais)
+VALUES ('el pozon',2454552147,'cr 3 # 85-74','bolivar','colombia');
+INSERT INTO  oficina (ciudad, telefono,direccion,departamento,pais)
+VALUES('frailegon',7584232548,'av chile # 85-74','cundinamarca','colombia');
+INSERT INTO  oficina (ciudad, telefono,direccion,departamento,pais)
+VALUES('la pulla',32154784548,'cr 8 # 85-74','bolivar','colombia');
+INSERT INTO  oficina (ciudad, telefono,direccion,departamento,pais)
+VALUES ('conflicto',74128547,'lote 45 # 5-74','meta','colombia');
+INSERT INTO  oficina (ciudad, telefono,direccion,departamento,pais)
+VALUES ('basket',32154784,'av moodler # 85-74','brooklin','new york');
+INSERT INTO  oficina (ciudad, telefono,direccion,departamento,pais)
+VALUES ('el condado',123456821,'manz 3 lote 78','antoquia','colombia');
+INSERT INTO  oficina (ciudad, telefono,direccion,departamento,pais)
+VALUES ('machupicho',32014714824,' av ecuador #3f -06','region oriental','peru');
+INSERT INTO  oficina (ciudad, telefono,direccion,departamento,pais)
+VALUES ('zipa',12450004,'cir #28-32','asucion','chile'); 
+INSERT INTO  oficina (ciudad, telefono,direccion,departamento,pais)
+VALUES ('quira',65324787,'av rot 389-03','rata','chile');
+INSERT INTO  oficina (ciudad, telefono,direccion,departamento,pais)
+VALUES ('rara',555548874,' mnz a # 30-74','cuy','colombia');
+INSERT INTO  oficina (ciudad, telefono,direccion,departamento,pais)
+VALUES ('si quiere',7411258,'cl d #1-2','cundinamarca','colombia');
+INSERT INTO  oficina (ciudad, telefono,direccion,departamento,pais)
+VALUES ('zipaquira',32154784548,'cr 3 # 85-74','cundinamarca','colombia');
+INSERT INTO  oficina (ciudad, telefono,direccion,departamento,pais)
+VALUES ('Barcelona',1234567890,'Calle Mayor, 123',' Cataluna','Espana');
+INSERT INTO  oficina (ciudad, telefono,direccion,departamento,pais)
+VALUES (' Paris', 9876543210,' Rue de la Paix, 456',' Lle-de-France',' Francia');
+INSERT INTO  oficina (ciudad, telefono,direccion,departamento,pais)
+VALUES ('Nueva York', 5551234567,'5th Avenue, 789','Nueva York','Estados Unidos');
+INSERT INTO  oficina (ciudad, telefono,direccion,departamento,pais)
+VALUES ('Roma', 3335557777,' Via del Corso, 234',' Lacio',' Italia');
+INSERT INTO  oficina (ciudad, telefono,direccion,departamento,pais)
+VALUES ('Sidney', 0287654321,'George Street, 567',' Nueva Gales del Sur','Australia');
+INSERT INTO  oficina (ciudad, telefono,direccion,departamento,pais)
+VALUES ('Ciudad de Mexico', 5598765432,' Ciudad de Mexico','Mexico');
+INSERT INTO  oficina (ciudad, telefono,direccion,departamento,pais)
+VALUES(' Berlin',30123456,'Unter den Linden, 12',' Berlin','Alemania');
+INSERT INTO  oficina (ciudad, telefono,direccion,departamento,pais)
+VALUES ('Buenos Aires',1187654321,'Avenida 9 de Julio, 678',' Buenos Aires',' Argentina');
+INSERT INTO  oficina (ciudad, telefono,direccion,departamento,pais)
+VALUES ('Pekin',1055556789,'Wangfujing Street, 123','Pekin','China');
 
 
-
- INSERT INTO  oficina (ciudad, telefono,direccion,departamento,pais)
- VALUES ( 'bogota',421365851,'cl 74 sur # 23-88','cundinamarca','colombia'),('neiva',4125874545,'cr 4 #85-4','huila','colombia'),('pitalito',6578412469,' cr 23 #85-20','huila','colombia'),
- ('yopal',5874612487,'manzana 5 lote 234','casanare','colombia'),('cartagena'3125478451,'cr 5 # 18-54','bolivar','colombia'),
-  ('medellin'2542454514,'cr 5 # 18-53','antoquia','colombia'),('pereira'3224578479,'cr 2 #58-20','antoquia','colombia'),('florencia'3125478231,'cr 5 # 18-54','caqueta','colombia'),
-  ('quibdo'3127445768,'cr 5 # 18-54','choco','colombia'),('zipaquira'32154784548,'cr 3 # 85-74','cundinamarca','colombia');
 
 
 
