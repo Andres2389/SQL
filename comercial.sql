@@ -35,7 +35,26 @@ CREATE TABLE  cliente(
 
 
  INSERT INTO  oficina (ciudad, telefono,direccion,departamento,pais)
- VALUES ( 'bogota',4213658741,'cl 53 sur # 23-89','cundinamarca','colombia');
+ VALUES ( 'bogota',421365851,'cl 74 sur # 23-88','cundinamarca','colombia'),('neiva',4125874545,'cr 4 #85-4','huila','colombia'),('pitalito',6578412469,' cr 23 #85-20','huila','colombia'),
+ ('yopal',5874612487,'manzana 5 lote 234','casanare','colombia'),('cartagena'3125478451,'cr 5 # 18-54','bolivar','colombia'),
+  ('medellin'2542454514,'cr 5 # 18-53','antoquia','colombia'),('pereira'3224578479,'cr 2 #58-20','antoquia','colombia'),('florencia'3125478231,'cr 5 # 18-54','caqueta','colombia'),
+  ('quibdo'3127445768,'cr 5 # 18-54','choco','colombia'),('zipaquira'32154784548,'cr 3 # 85-74','cundinamarca','colombia');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
   INSERT INTO  cliente (empresa,nombre,apellido,telefono,direccion,departamento,pais,empleado_atiende)
      VALUES ('koaj','jose','rivera',3215486247,'KR 69 SUR # 45-8','cundinamarca','colombia','alonso');
       INSERT INTO  cliente (empresa,nombre,apellido,telefono,direccion,departamento,pais,empleado_atiende)
